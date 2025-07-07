@@ -1,25 +1,19 @@
-Titanic Survival Prediction 
+# Titanic Survival Prediction 
 
 A machine learning-powered dashboard that predicts passenger survival on the Titanic, combining exploratory data analysis with logistic regression and interactive deployment through a Flask web application.
 
-Short Description / Purpose
+# Short Description / Purpose
 This dashboard allows users to explore key Titanic passenger attributes and predict survival likelihood based on input features like age, class, fare, and gender. It was built to practice data science workflows from data cleaning and model training to real-world deployment.
 
-Tech Stack
+# Tech Stack
 The project leverages the following technologies:
-
 Python – Main programming language for data preprocessing, modeling, and app logic.
-
 Pandas, NumPy, Seaborn, Matplotlib – Used for data analysis and visualization.
-
 Scikit-learn – Logistic Regression model training and evaluation.
-
 Flask – To deploy the model as a web application with a prediction form.
-
 Ngrok – For tunneling the Flask app to create a publicly accessible URL.
 
-
-📊 Data Source
+# Data Source
 Source: Titanic dataset from Kaggle 
 Structure: Includes passenger details like:
 Pclass, Sex, Age, SibSp, Parch, Fare, Embarked
@@ -27,7 +21,7 @@ Target label: Survived (0 = No, 1 = Yes)
 Missing values handled for Age, Fare, and dropped Cabin.
 Categorical values encoded (e.g., Sex: male = 0, female = 1).
 
-🌟 Features / Highlights
+# Features / Highlights
 • Business Problem
 The Titanic disaster data is widely used in machine learning. A key challenge is building a model that predicts survival outcomes using incomplete and noisy historical data.
 
@@ -50,6 +44,6 @@ Model deployed using Flask and hosted via Ngrok.
 Outputs instant survival prediction (0 = did not survive, 1 = survived).
 
 • Business Impact & Insights
-💡 Educational Value: Great tool for ML beginners to understand model pipelines.
-⚙️ Deployable: Includes both backend logic and frontend UI for real-world use.
-📈 Interactive: Users can explore how individual features affect survival.
+Educational Value: Great tool for ML beginners to understand model pipelines.
+Deployable: Includes both backend logic and frontend UI for real-world use.
+Interactive: Users can explore how individual features affect survival.
