@@ -1,4 +1,5 @@
-Titanic Survival Prediction Dashboard
+Titanic Survival Prediction 
+
 A machine learning-powered dashboard that predicts passenger survival on the Titanic, combining exploratory data analysis with logistic regression and interactive deployment through a Flask web application.
 
 Short Description / Purpose
